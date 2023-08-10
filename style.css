@@ -2118,7 +2118,7 @@ body {
 
 .section-3 {
     width: 100vw;
-    height: 300vh;
+    height: 260vh;
     z-index: 1;
     background-color: #1c1c1c;
     display: flex;
@@ -2272,6 +2272,7 @@ body {
 
 .linha-video video {
     width: 100%;
+    
 }
 
 
@@ -2387,6 +2388,7 @@ body {
     color: white;
     border: none;
     cursor: pointer;
+    
 
 }
 
@@ -2697,7 +2699,9 @@ height: 30%;
 }
 
 
-
+.section-4-video video{
+  width: 100vw;
+}
 
 
 
@@ -2843,7 +2847,7 @@ height: 30%;
 }
 
 
-/* midia screem 411px anuncios campeonatos codm */
+/* midia screem 450px anuncios campeonatos codm */
 @media screen and (max-width:450px) {
     
 .anuncios-codm {
