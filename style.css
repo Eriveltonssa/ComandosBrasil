@@ -89,7 +89,7 @@ body {
 }
 
 /*         nav 1    midia screm 411px  */
-@media screen and (max-width:1080px) {
+@media screen and (max-width:450px) {
     .patrocinio {
         width: 100vw;
         height: 5vh;
@@ -301,7 +301,7 @@ body {
 
 
 /*         nav 2  midia screem 411px   */
-@media screen and (max-width:1080px) {
+@media screen and (max-width:450px) {
 
     .header-2 {
         display: none;
@@ -311,7 +311,7 @@ body {
 
 
 /* menu-escondido 390px escondido + 411*/
-@media screen and (min-width:1080px) {
+@media screen and (min-width:450px) {
 
     .header-device {
         display: none;
@@ -320,7 +320,7 @@ body {
 }
 
 /* menu-escondido 411px*/
-@media screen and (max-width:1080px) {
+@media screen and (max-width:450px) {
 
     .header-device {
         display: block;
@@ -776,13 +776,13 @@ body {
 
 
 /* section midia screm 411px */
-@media screen and (max-width:1080px){
+@media screen and (max-width:450px){
     .logo-device-1{
      display: none;
     }
     
 }
-@media screen and (min-width:1080px){
+@media screen and (min-width:450px){
     .logo-device-2{
         display: none;
        }
@@ -791,7 +791,7 @@ body {
     }
 }
 /* section midia screm 411px */
-@media screen and (max-width:1080px) {
+@media screen and (max-width:450px) {
     .section-1 {
 
         background-image: url("img/COMANDOS.png");
@@ -1140,7 +1140,7 @@ body {
 
 
 /* midia screem menu escondido */
-@media screen and (max-width:1080px) {
+@media screen and (max-width:450px) {
     #menu-escondido {
         width: 50%;
         height: 100vh;
@@ -1488,7 +1488,7 @@ body {
 
 
 /* section 2  midia screm 411px*/
-@media screen and (max-width:1080px) {
+@media screen and (max-width:450px) {
 
     /* section 2 */
     .section-2 {
@@ -2112,7 +2112,7 @@ body {
 
 
 /* section 3 midia screem 411px */
-@media screen and (max-width:1080px) {
+@media screen and (max-width:450px) {
     /* section 3 */
 
 
@@ -2834,7 +2834,7 @@ body {
 
 
 /* midia screem 411px anuncios campeonatos codm */
-@media screen and (max-width:1080px) {
+@media screen and (max-width:450px) {
     
 .anuncios-codm {
     
