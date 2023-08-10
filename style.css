@@ -1495,7 +1495,7 @@ body {
         width: 100vw;
         height: 100vh;
         background-image: url("img/codm/Warzone-S03-Cover-1920x1024.webp");
-        background-position: center;
+        background-position: center center;
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
