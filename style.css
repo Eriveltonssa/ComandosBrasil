@@ -282,7 +282,7 @@ body {
 }
 
 #bk-inicio img {
-    width: 6vw;
+    width: 9vw;
 
 }
 
@@ -673,6 +673,7 @@ body {
     gap: 2rem;
     flex-direction: column;
     z-index: 1;
+   
 
 
 
@@ -713,6 +714,7 @@ body {
 
 .logo-inicial img {
     width: 60vw;
+    
 
 
 }
@@ -751,7 +753,9 @@ body {
 }
 
 .img-bk img {
-    width: 30vw;
+    width: 50vw;
+    position: absolute;
+    margin-left: 30%;
 
 }
 
@@ -928,10 +932,10 @@ body {
     }
     .section-inicial .logo-device-2 {
        z-index: 1;
-       width: 50vw;
+       width: 100vw;
        box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
 	transform: scale(1);
-	animation: pulse 3s infinite;
+	/* animation: pulse 3s infinite; */
        
     }
     @keyframes pulse {
@@ -2699,93 +2703,650 @@ height: 30%;
 }
 
 
-.section-4-video video{
-  width: 100vw;
+/* section 4 */
+.section-4{
+    width: 100vw;
+    height: 100vh;
+  
+    background-color: #1c1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+.text-desing{
+    position: absolute;
+    top: 3vh;
+    font-family: deathe_maach;
+    font-size: 3.5vw;
+    color: white;
 }
 
+.card-desing-1{
+    
+    width: 45%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s ease-in-out;
+    background-image: linear-gradient(45deg, black, #0b270b );
+    border-radius:30px 0px 30px 0px;
+    position: relative;
 
 
-
-/* section 4 */
-
-.section-4 {
+}
+.card-desing-1 img{
+  width: 100%;
+}
+.desing-info{
+  
+    width: 55%;
+    height: 100%;
+ 
+    
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    font-family: deathe_maach;
+    color: #00ff00;
+    font-size: 2.5vw;
    
   
-    width: 100%;
-    height: 100vh;
-    background-color: #1c1c1c;
 }
-
-.section-4 {
-    position: absolute;
-    width: 100vw;
-    height: 110vh;
+.card-desing-1:hover{
+    box-shadow: 1px 1px 1rem white;
+   
+}
+.desing-info img{
+    width: 2.5vw;
+}
+.icon-desing{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 2px;
-    flex-wrap: wrap;
-    overflow: hidden;
+    gap: 1rem;
+    justify-content: center;
 }
 
-.section-4::before {
-    content: '';
+
+.desing-info button{
     position: absolute;
+  bottom: 6vh;
+  width: 10vw;
+  padding: 0.4rem;
+  font-size: 1.2vw;
+  font-family: deathe_maach;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  mix-blend-mode: lighten;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+}
+.desing-info button:hover{
+    box-shadow: 1px 1px 1rem white;
+}
+
+.desing-info button img{
+    width:2vw;
+   
+}
+
+
+
+
+
+
+
+
+
+.desing-contato{
+ 
+    width: 45%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+   
+}
+
+
+
+.img-desing{
+  
+ 
+   display: flex;
+   align-items: center;
+  
+   justify-content: center;
+    
+
+}
+.img-desing img{
+ width: 15vw;
+
+ 
+}
+
+
+/* card desing 2 */
+.card-desing-2{
+   
+    width: 45%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s ease-in-out;
+    background-image: linear-gradient(45deg, black, #0b270b );
+    border-radius:30px 0px 30px 0px;
+    position: relative;
+
+
+}
+
+.card-desing-2 img{
+    width: 100%;
+  }
+  .desing-info{
+    
+      width: 55%;
+      height: 100%;
+   
+      
+     
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+      font-family: deathe_maach;
+      color: #00ff00;
+      font-size: 2.5vw;
+     
+    
+  }
+  .card-desing-2:hover{
+      box-shadow: 1px 1px 1rem white;
+     
+  }
+  .desing-info img{
+      width: 2.5vw;
+  }
+  .icon-desing{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      justify-content: center;
+  }
+  
+  
+  
+  .desing-contato{
+   
+      width: 45%;
+      height: 100%;
+      
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+  
+     
+  }
+  
+  
+  
+  .img-desing{
+    
+   
+     display: flex;
+     align-items: center;
+    
+     justify-content: center;
+      
+  
+  }
+  .img-desing img{
+   width: 15vw;
+  
+   
+  }
+
+  .card-desing-2 .desing-info button{
+    position: absolute;
+  bottom: 6vh;
+  width: 10vw;
+  padding: 0.4rem;
+  font-size: 1.2vw;
+  font-family: deathe_maach;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  mix-blend-mode: lighten;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+}
+.card-desing-2  .desing-info button:hover{
+    box-shadow: 1px 1px 1rem white;
+}
+
+.card-desing-2 .desing-info button img{
+    width:2vw;
+   
+}
+
+
+/* video desing */
+.video-speed{
+    width: 80%;
+    position: absolute;
+    border: 1px solid white;
+    height: 70%;
+    background-color: #0b270b;
+    display: none;
+}
+
+
+.video-speed button{
+  width: 6vw;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  background-color: red;
+  border: none;
+  font-size: 1.2vw;
+  font-family: deathe_maach;
+  margin-right: 0.5vw;
+  margin-top: 1vh;
+}
+
+
+
+.video-makarov{
+    width: 80%;
+    position: absolute;
+    border: 1px solid white;
+    height: 70%;
+    background-color: #27110b;
+    display: none;
+}
+
+
+.video-makarov button{
+    width: 6vw;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    font-size: 1.2vw;
+    font-family: deathe_maach;
+    margin-right: 0.5vw;
+    margin-top: 1vh;
+}
+
+
+
+
+
+/* midia screem 450px section 4 */
+
+@media screen and (max-width:450px) {
+  
+.section-4{
+    width: 100vw;
+    height: 120vh;
+  
+    background-color: #1c1c1c;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    
+
+}
+.text-desing{
+    position: absolute;
+    top: 2vh;
+    font-family: deathe_maach;
+    font-size: 5vw;
+    color: white;
+}
+
+.card-desing-1{
+   border-radius:4px;
+    margin-top: 10vh;
+    width: 90vw;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.7s ease-in-out;
+    background-image: linear-gradient(45deg, black, #0b270b );
+    
+    position: relative;
+
+
+}
+.card-desing-1 h1{
+    font-size: 15vw;
+}
+.card-desing-1 img{
+  width: 100%;
+ 
+}
+.desing-info{
+ 
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    font-family: deathe_maach;
+    color: #00ff00;
+    font-size: 2.5vw;
+   
+  
+}
+.card-desing-1:hover{
+    box-shadow: 1px 1px 1rem white;
+   
+}
+.desing-info img{
+    width: 9vw;
+    
+}
+.icon-desing{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+
+
+.desing-info button{
+    position: absolute;
+  bottom: 6vh;
+  width:30vw;
+  padding: 0.4rem;
+  font-size: 4vw;
+  font-family: deathe_maach;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  mix-blend-mode: lighten;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  margin-left: 50vw;
+}
+.desing-info button:hover{
+    box-shadow: 1px 1px 1rem white;
+}
+
+.desing-info button img{
+    width:4vw;
+   
+}
+
+
+
+
+
+
+
+
+
+.desing-contato{
+ 
     width: 100%;
     height: 100%;
-    background: linear-gradient(#000, #0f0, #000);
-    animation: animate 5s linear infinite;
+   
+    display: flex;
+    align-items: center;
+    
+    gap: 3rem;
+
+   
 }
 
-@keyframes animate {
-    0% {
-        transform: translateY(-100%);
-    }
+.img-desing{
+   display: flex;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+ 
 
-    100% {
-        transform: translateY(100%);
-    }
+    
+
+}
+.img-desing img{
+ width:25vw;
+
+ 
 }
 
-.section-4 span {
+
+
+
+
+
+
+/* card desing 2 */
+.card-desing-2{
+   
+    margin-top: 10vh;
+    width: 90vw;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.7s ease-in-out;
+    background-image: linear-gradient(45deg, black, #0b270b );
+   border-radius:4px;
     position: relative;
-    display: block;
-    width: calc(6.25vw - 2px);
-    height: calc(6.25vw - 2px);
-    background: #181818;
 
-    transition: 1.5s;
+
 }
-
-.section-4 span:hover {
-    background: #00ff00;
-    transition: 0s;
+.card-desing-2 h1{
+    font-size: 15vw;
 }
+.card-desing-2 img{
+    width: 100%;
+  }
+  .card-desing-2 .desing-info{
+    
+      width: 55%;
+      height: 100%;
+   
+      
+     
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+      font-family: deathe_maach;
+      color: #00ff00;
+      font-size: 2.5vw;
+     
+    
+  }
+  .card-desing-2:hover{
+      box-shadow: 1px 1px 1rem white;
+     
+  }
+  .card-desing-2 .desing-info img{
+      width: 9vw;
+  }
+  .card-desing-2 .icon-desing{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      justify-content: center;
+  }
+  
+  
+  
+  .card-desing-2 .desing-contato{
+   
+      width: 45%;
+      height: 100%;
+      
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+  
+     
+  }
+  
+  
+  
+  .card-desing-2 .img-desing{
+    
+   
+     display: flex;
+     align-items: center;
+    
+     justify-content: center;
+      
+  
+  }
+  .card-desing-2 .img-desing img{
+   width: 15vw;
+  
+   
+  }
 
-
-.informacao-farlight {
-    border: 1px solid rgba(255, 255, 255, 0.664);
-    width: 85%;
-    height: 70%;
-    background-color: rgba(5, 5, 5, 0.74);
-
+  .card-desing-2 .desing-info button{
     position: absolute;
-    border-radius: 5px;
+  bottom: 6vh;
+  width:30vw;
+  padding: 0.4rem;
+  font-size: 4vw;
+  font-family: deathe_maach;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  mix-blend-mode: lighten;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+}
+.card-desing-2  .desing-info button:hover{
+    box-shadow: 1px 1px 1rem white;
+}
 
+.card-desing-2 .desing-info button img{
+    width:4vw;
+   
+}
+.card-desing-2 .desing-contato{
+ 
+    width:100%;
+    height: 100%;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 
+   
 }
 
 
-.informacao-farlight h1 {
-    color: white;
-    font-size: 4vw;
+
+.card-desing-2 .img-desing{
+  
+ 
+   display: flex;
+   align-items: center;
+  
+   justify-content: center;
+    
+
+}
+.card-desing-2 .img-desing img{
+ width: 25vw;
+
+ 
+}
+
+
+/* video desing */
+.video-speed{
+    width: 80%;
+    position: absolute;
+    border: 1px solid white;
+    height: 70%;
+    background-color: #0b270b;
+    display: none;
+}
+
+
+.video-speed button{
+  width: 6vw;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  background-color: red;
+  border: none;
+  font-size: 1.2vw;
+  font-family: deathe_maach;
+  margin-right: 0.5vw;
+  margin-top: 1vh;
+}
+
+
+
+.video-makarov{
+    width: 80%;
+    position: absolute;
+    border: 1px solid white;
+    height: 70%;
+    background-color: #27110b;
+    display: none;
+}
+
+
+.video-makarov button{
+    width: 6vw;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    font-size: 1.2vw;
     font-family: deathe_maach;
-    text-align: center;
+    margin-right: 0.5vw;
+    margin-top: 1vh;
 }
-
-
-
-
+}
 
 
 

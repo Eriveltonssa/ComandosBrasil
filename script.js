@@ -223,3 +223,47 @@ function fecharPasse() {
 
 
 
+// Desing Speed
+function desingVideoSpeed(){
+  var videoSpeed = window.document.getElementById(`videoSpeed`)
+
+  if(videoSpeed.style.display === "none"){
+    videoSpeed.style.display = "block"
+  }
+  else{
+    videoSpeed.style.display = "none"
+  }
+}
+function fecharVideoSpeed(){
+  var videoSpeed = window.document.getElementById(`videoSpeed`)
+
+  if(videoSpeed.style.display === "block"){
+    videoSpeed.style.display = "none"
+  }
+  else{
+    videoSpeed.style.display = "block"
+  }
+}
+
+
+// Desing Makarov
+function desingVideoMakarov(){
+  var videoMakarov= window.document.getElementById(`videoMakarov`)
+
+  if(videoMakarov.style.display === "none"){
+    videoMakarov.style.display = "block"
+  }
+  else{
+    videoMakarov.style.display = "none"
+  }
+}
+function fecharVideoMakarov(){
+  var videoMakarov = window.document.getElementById(`videoMakarov`)
+
+  if(videoMakarov.style.display === "block"){
+    videoMakarov.style.display = "none"
+  }
+  else{
+    videoMakarov.style.display = "block"
+  }
+}
